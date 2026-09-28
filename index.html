@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Angela</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <a href="#inicio" class="logo">Angela</a>
+
+            <!-- Botão hambúrguer: aparece só no celular (o JS entra depois) -->
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <!-- APRESENTAÇÃO -->
+            <section id="inicio" class="hero">
+                <div class="hero-texto">
+                    <h1>Oi, eu sou a Angela!</h1>
+                    <p>Estudante de desenvolvimento de sistemas. Aqui você encontra os projetos que criei durante os meus estudos.</p>
+                    <a href="#projetos" class="botao">Ver projetos</a>
+                </div>
+                <img src="assets/img/foto.jpg" alt="Foto da Angela" class="hero-foto">
+            </section>
+
+            <!-- SOBRE -->
+            <section id="sobre">
+                <h2>Sobre mim</h2>
+                <p>Escreva aqui um parágrafo curto: quem você é, o que está estudando e o que gosta de fazer.</p>
+                <p>Tecnologias que uso: HTML, CSS, JavaScript e Bootstrap.</p>
+            </section>
+
+            <!-- PROJETOS -->
+            <section id="projetos">
+                <h2>Galeria de projetos</h2>
+
+                <!-- Confira o caminho de cada link: cada um precisa apontar para o
+                     index.html de dentro da respectiva pasta em allProjects/ -->
+                <div class="grid">
+
+                    <a href="allProjects/petCare-aipsii/front-end/index.html" class="card">
+                        <img src="assets/img/petcare.png" alt="Print do formulário de cadastro do PetCare">
+                        <p>PetCare: cadastro de clientes</p>
+                    </a>
+
+                    <a href="allProjects/aula-bootstrap-senai/index.html" class="card">
+                        <img src="assets/img/aula-bootstrap-senai.png" alt="Print da aula de Bootstrap do SENAI">
+                        <p>Aula de Bootstrap</p>
+                    </a>
+
+                    <a href="allProjects/aulas-profKeliven/index.html" class="card">
+                        <img src="assets/img/aulas-profkeliven.png" alt="Print das aulas com a professora Keliven">
+                        <p>Aulas com a Prof. Keliven</p>
+                    </a>
+
+                    <a href="allProjects/layout-bootstrap-/index.html" class="card">
+                        <img src="assets/img/layout-bootstrap.png" alt="Print do projeto de layout com Bootstrap">
+                        <p>Layout com Bootstrap</p>
+                    </a>
+
+                    <a href="allProjects/pratica-prova/index.html" class="card">
+                        <img src="assets/img/pratica-prova.png" alt="Print do projeto de prática">
+                        <p>Prática</p>
+                    </a>
+
+                    <a href="allProjects/prova-pratica/index.html" class="card">
+                        <img src="assets/img/prova-pratica.png" alt="Print do projeto de prova prática">
+                        <p>Prova prática</p>
+                    </a>
+
+
+                </div>
+            </section>
+
+            <!-- CONTATO -->
+            <section id="contato">
+                <h2>Contato</h2>
+                <p>Quer conversar ou ver mais de perto algum projeto? Me chame:</p>
+                <ul class="contato-lista">
+                    <li><a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></li>
+                    <li><a href="https://www.linkedin.com/in/SEU-USUARIO" target="_blank" rel="noopener">LinkedIn</a></li>
+                    <li><a href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener">GitHub</a></li>
+                </ul>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Angela. Feito com HTML, CSS e JavaScript.</p>
+        </footer>
+
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
